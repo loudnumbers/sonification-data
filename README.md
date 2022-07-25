@@ -87,4 +87,4 @@ See column headers and Our World in Data for full description.
 
 ## US recessions
 
-- **recessions:** Various US economic data from Q1 1968 to Q1 2020 (various trends: binary on/off (recessions), spiky (indexes), rising (dow jones))
+- **recessions:** Various US economic data from Q1 1968 to Q1 2020 (various trends: binary on/off (recessions), spiky (indexes), rising (dow jones)). See [`recessions_about.csv`](https://github.com/loudnumbers/sonification-data/blob/main/recessions_about.csv) for details and sources of different variables.
