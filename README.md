@@ -30,11 +30,11 @@ sigma/sqrt(N) where sigma is the listed standard deviation and N the total numbe
 NB: this standard error gives a measure of the precision, i.e. the sensitivity of the yearly value to different samples of daily values with random errors. The uncertainty on the mean (absolute accuracy) is only determined on longer time scales, and is thus not given here for individual yearly values.
 
 ### Contents:
-Column 1: Gregorian calendar year (mid-year date)
-Column 2: Yearly mean total sunspot number.
-Column 3: Yearly mean standard deviation of the input sunspot numbers from individual stations.
-Column 4: Number of observations used to compute the yearly mean total sunspot number.
-Column 5: Definitive/provisional marker. A blank indicates that the value is definitive. A '*' symbol indicates that the yearly average still contains provisional daily values and is subject to a possible revision.
+- Column 1: Gregorian calendar year (mid-year date)
+- Column 2: Yearly mean total sunspot number.
+- Column 3: Yearly mean standard deviation of the input sunspot numbers from individual stations.
+- Column 4: Number of observations used to compute the yearly mean total sunspot number.
+- Column 5: Definitive/provisional marker. A blank indicates that the value is definitive. A '*' symbol indicates that the yearly average still contains provisional daily values and is subject to a possible revision.
 
 ### Line format [character position]:
 - [1-6] Year (decimal)
@@ -58,15 +58,13 @@ sigma/sqrt(N) where sigma is the listed standard deviation and N the total numbe
 
 NB: February 1824 does not contain any daily value. As it is the only month without data after 1749, the monthly mean value was interpolated by R. Wolf between the adjacent months.
 
-### Columns
-Column 1-2: Gregorian calendar date
-- Year
-- Month
-Column 3: Date in fraction of year for the middle of the corresponding month
-Column 4: Monthly mean total sunspot number.
-Column 5: Monthly mean standard deviation of the input sunspot numbers from individual stations.
-Column 6: Number of observations used to compute the monthly mean total sunspot number.
-Column 7: Definitive/provisional marker. A blank indicates that the value is definitive. A '*' symbol indicates that the monthly value is still provisional and is subject to a possible revision (Usually the last 3 to 6 months)
+### Contents
+- Column 1-2: Gregorian calendar date (Year, Month)
+- Column 3: Date in fraction of year for the middle of the corresponding month
+- Column 4: Monthly mean total sunspot number.
+- Column 5: Monthly mean standard deviation of the input sunspot numbers from individual stations.
+- Column 6: Number of observations used to compute the monthly mean total sunspot number.
+- Column 7: Definitive/provisional marker. A blank indicates that the value is definitive. A '*' symbol indicates that the monthly value is still provisional and is subject to a possible revision (Usually the last 3 to 6 months)
 
 **Source:** WDC-SILSO, Royal Observatory of Belgium, Brussels. Accessed 4 July 2022.
 https://www.sidc.be/silso/datafiles
