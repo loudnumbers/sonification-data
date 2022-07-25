@@ -16,11 +16,11 @@ Land-surface average anomaly results produced by the Berkeley Earth averaging me
 
 - **sunspots_y:** Yearly mean total sunspot number, 1700-2021 (trend cyclical every 11 years with some noise)
 
-### Data description:
+**Data description:**
 Yearly mean total sunspot number obtained by taking a simple arithmetic mean of the daily total sunspot number over all days of each year. (NB: in early years in particular before 1749, the means are computed on only a fraction of the days in each year because on many days, no observation is available).
 A value of -1 indicates that no number is available (missing value).
 
-### Error values:
+**Error values:**
 The yearly standard deviation of individual data is derived from the daily values by the same formula as the monthly means:
 sigma(m)=sqrt(SUM(N(d)*sigma(d)^2)/SUM(N(d)))
 where sigma(d) is the standard deviation for a single day and N(d) is the
@@ -30,14 +30,14 @@ The standard error on the yearly mean values can be computed by:
 sigma/sqrt(N) where sigma is the listed standard deviation and N the total number of observations in the year.
 NB: this standard error gives a measure of the precision, i.e. the sensitivity of the yearly value to different samples of daily values with random errors. The uncertainty on the mean (absolute accuracy) is only determined on longer time scales, and is thus not given here for individual yearly values.
 
-### Contents:
+**Contents:**
 - Column 1: Gregorian calendar year (mid-year date)
 - Column 2: Yearly mean total sunspot number.
 - Column 3: Yearly mean standard deviation of the input sunspot numbers from individual stations.
 - Column 4: Number of observations used to compute the yearly mean total sunspot number.
 - Column 5: Definitive/provisional marker. A blank indicates that the value is definitive. A '*' symbol indicates that the yearly average still contains provisional daily values and is subject to a possible revision.
 
-### Line format [character position]:
+**Line format [character position]:** 
 - [1-6] Year (decimal)
 - [9-13] Yearly mean total sunspot number
 - [15-19] Standard deviation
@@ -46,11 +46,11 @@ NB: this standard error gives a measure of the precision, i.e. the sensitivity o
 
 - **sunspots_m:** Monthly mean total sunspot number, January 1749-June 2022 (trend cyclical every 11 years, noisy)
 
-### Data description:
+**Data description:**
 Monthly mean total sunspot number obtained by taking a simple arithmetic mean of the daily total sunspot number over all days of each calendar month. Monthly means are available only since 1749 because the original observations compiled by Rudolph Wolf were too sparse before that year. (Only yearly means are available back to 1700)
 A value of -1 indicates that no number is available (missing value).
 
-### Error values:
+**Error values:**
 The monthly standard deviation of individual data is derived from the daily values by: sigma(m)=sqrt(SUM(N(d)*sigma(d)^2)/SUM(N(d)))
 where sigma(d) is the standard deviation for a single day and N(d) is the
 number of observations for that day.
@@ -59,7 +59,7 @@ sigma/sqrt(N) where sigma is the listed standard deviation and N the total numbe
 
 NB: February 1824 does not contain any daily value. As it is the only month without data after 1749, the monthly mean value was interpolated by R. Wolf between the adjacent months.
 
-### Contents
+**Contents:**
 - Column 1-2: Gregorian calendar date (Year, Month)
 - Column 3: Date in fraction of year for the middle of the corresponding month
 - Column 4: Monthly mean total sunspot number.
