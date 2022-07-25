@@ -4,16 +4,17 @@ A collection of time-series datasets suitable for practising data sonification t
 
 ## Temperature anomalies
 
-- **temps_y:** Yearly means, 1880-2021
-- **temps_m:** Monthly means, Jan 1880-Dec 2021
+- **temps_y:** Yearly means, 1880-2021 (ascending trend, some noise)
+- **temps_m:** Monthly means, Jan 1880-Dec 2021 (ascending trend, noisy)
 
 Land-surface average anomaly results produced by the Berkeley Earth averaging method. Temperatures are in Celsius and reported as anomalies relative to the Jan 1951-Dec 1980 average: 8.59°C +/- 0.06°C.
 
 **Source:** Yearly and monthly means of Berkeley Earth daily TAVG full dataset http://berkeleyearth.lbl.gov/auto/Global/Complete_TAVG_daily.txt
 
+
 ## Sunspots
 
-- **sunspots_y:** Yearly mean total sunspot number, 1700-2021
+- **sunspots_y:** Yearly mean total sunspot number, 1700-2021 (trend cyclical every 11 years with some noise)
 
 ### Data description:
 Yearly mean total sunspot number obtained by taking a simple arithmetic mean of the daily total sunspot number over all days of each year. (NB: in early years in particular before 1749, the means are computed on only a fraction of the days in each year because on many days, no observation is available).
@@ -43,7 +44,7 @@ NB: this standard error gives a measure of the precision, i.e. the sensitivity o
 - [22-26] Number of observations
 - [28] Definitive/provisional indicator
 
-- **sunspots_m:** Monthly mean total sunspot number, January 1749-June 2022
+- **sunspots_m:** Monthly mean total sunspot number, January 1749-June 2022 (trend cyclical every 11 years, noisy)
 
 ### Data description:
 Monthly mean total sunspot number obtained by taking a simple arithmetic mean of the daily total sunspot number over all days of each calendar month. Monthly means are available only since 1749 because the original observations compiled by Rudolph Wolf were too sparse before that year. (Only yearly means are available back to 1700)
@@ -71,16 +72,18 @@ https://www.sidc.be/silso/datafiles
 
 ## Covid-19
 
-- **covid_US:** Various Covid data for the USA from 22 Jan 2020 to 3 July 2022
+- **covid_US:** Various Covid data for the USA from 22 Jan 2020 to 3 July 2022 (various trends)
+
+See column headers and Our World in Data for full description.
 
 **Source:** Our World in Data https://ourworldindata.org/covid-deaths Accessed 4 July 2022.
 
 ## Same-sex marriage
 
-- **marriage:** % of US adults who support / oppose same-sex marriage, by year 2001-2019
+- **marriage:** % of US adults who support / oppose same-sex marriage, by year 2001-2019 (two opposing trends: support increases while opposition decreases)
 
 **Source:** Pew Research Center https://www.pewresearch.org/religion/fact-sheet/changing-attitudes-on-gay-marriage/ Published May 14 2019. Accessed 4 July 2022.
 
 ## US recessions
 
-- **recessions:** Various US economic data from Q1 1968 to Q1 2020
+- **recessions:** Various US economic data from Q1 1968 to Q1 2020 (various trends: binary on/off (recessions), spiky (indexes), rising (dow jones))
