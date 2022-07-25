@@ -13,7 +13,9 @@ Land-surface average anomaly results produced by the Berkeley Earth averaging me
 
 ## Sunspots
 
-- **sunspots_y:** Yearly mean total sunspot number, 1700-2021 (trend cyclical every 11 years with some noise)
+### sunspots_y
+
+Yearly mean total sunspot number, 1700-2021 (trend cyclical every 11 years with some noise)
 
 **Data description:**
 Yearly mean total sunspot number obtained by taking a simple arithmetic mean of the daily total sunspot number over all days of each year. (NB: in early years in particular before 1749, the means are computed on only a fraction of the days in each year because on many days, no observation is available).
@@ -45,9 +47,11 @@ NB: this standard error gives a measure of the precision, i.e. the sensitivity o
 - [22-26] Number of observations
 - [28] Definitive/provisional indicator
 
-- **sunspots_m:** Monthly mean total sunspot number, January 1749-June 2022 (trend cyclical every 11 years, noisy)
+### sunspots_m
 
-**Data description:**
+Monthly mean total sunspot number, January 1749-June 2022 (trend cyclical every 11 years, noisy)
+
+<https://github.com/loudnumbers/sonification-data>
 Monthly mean total sunspot number obtained by taking a simple arithmetic mean of the daily total sunspot number over all days of each calendar month. Monthly means are available only since 1749 because the original observations compiled by Rudolph Wolf were too sparse before that year. (Only yearly means are available back to 1700)
 A value of -1 indicates that no number is available (missing value).
 
