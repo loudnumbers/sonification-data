@@ -39,14 +39,6 @@ NB: this standard error gives a measure of the precision, i.e. the sensitivity o
 - Column 4: Number of observations used to compute the yearly mean total sunspot number.
 - Column 5: Definitive/provisional marker. A blank indicates that the value is definitive. A '*' symbol indicates that the yearly average still contains provisional daily values and is subject to a possible revision.
 
-**Line format [character position]:**
-
-- [1-6] Year (decimal)
-- [9-13] Yearly mean total sunspot number
-- [15-19] Standard deviation
-- [22-26] Number of observations
-- [28] Definitive/provisional indicator
-
 ### sunspots_m
 
 Monthly mean total sunspot number, January 1749-June 2022 (trend cyclical every 11 years, noisy)
