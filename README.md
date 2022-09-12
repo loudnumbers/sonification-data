@@ -67,14 +67,6 @@ NB: February 1824 does not contain any daily value. As it is the only month with
 
 **Source:** [WDC-SILSO, Royal Observatory of Belgium, Brussels](https://www.sidc.be/silso/datafiles). Accessed 4 July 2022.
 
-## Covid-19
-
-- **covid_US:** Various Covid data for the USA from 22 Jan 2020 to 3 July 2022 (various trends)
-
-See column headers and Our World in Data for full description.
-
-**Source:** [Our World in Data](https://ourworldindata.org/covid-deaths). Accessed 4 July 2022.
-
 ## Same-sex marriage
 
 - **marriage:** % of US adults who support / oppose same-sex marriage, by year 2001-2019 (two opposing trends: support increases while opposition decreases)
