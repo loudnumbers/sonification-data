@@ -84,3 +84,9 @@ See column headers and Our World in Data for full description.
 ## US recessions
 
 - **recessions:** Various US economic data from Q1 1968 to Q1 2020 (various trends: binary on/off (recessions), spiky (indexes), rising (dow jones)). See [`recessions_about.csv`](https://github.com/loudnumbers/sonification-data/blob/main/recessions_about.csv) for details and sources of different variables.
+
+## Brexit
+
+**brexit:** Support and opposition to Brexit among the British public over time.
+
+**Source:** [YouGov](https://yougov.co.uk/topics/politics/articles-reports/2022/11/17/one-five-who-voted-brexit-now-think-it-was-wrong-d), Published and accessed 17 November 2022.
